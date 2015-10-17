@@ -16,11 +16,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ *  Count amount of records for each iPinyou ID from all these files, sort in a DESC order, write result into bid_result.txt file on HDFS system
+ * (use for this only HDFS api and plain java (scala), no MR paradigm, no Hive, no Spark);
+ *
  * @author Anastasiia_Iurshina
  */
-public class HadoopTest {
+public class IPinyouCounter {
 
-    public void test() {
+    public void count() {
         try {
             FileSystem hdfs = FileSystem.get(new Configuration());
 
