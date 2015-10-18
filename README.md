@@ -1,5 +1,3 @@
-# Big Data Training Second Homework
-
 Count amount of records for each iPinyou ID from all these files, sort in a DESC order, write result into bid_result.txt file on HDFS system (use for this only HDFS api and plain java (scala), no MR paradigm, no Hive, no Spark)
 
 ## Resources report
